@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset utf="8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description"
+          content="Unique Wears is a renowned brand located in Liverpool Street, London, which deals in selling footwear for men, women and children. ">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <!--fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--coustom css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <!--shop-kart-js-->
+    <script src="js/simpleCart.min.js"></script>
+    <!--default-js-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!--script-->
+    <script src="js/bootstrap.min.js"></script>
+    <title>Contact us</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="header-top">
+            <a href="index.html"><h3>Unique Wears</h3></a>
+            <a href="contact.html#about">About us</a>
+            <div class="login-bars">
+                <a class="btn btn-default log-bar" href="register.html" role="button">Sign up</a>
+                <a class="btn btn-default log-bar" href="login.html" role="button">Login</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!---menu-----bar--->
+        <div class="header-botom">
+            <div class="content white">
+                <nav class="navbar navbar-default nav-menu" role="navigation">
+                    <!--/.navbar-header-->
+                    <div class="collapse navbar-collapse collapse-pdng">
+                        <ul class="nav navbar-nav nav-font">
+                            <li class="nav-menu">
+                                <a href="collections.html">Men</a>
+                            </li>
+                            <li class="nav-menu">
+                                <a href="collections.html">Women</a>
+                            </li>
+                            <li class="nav-menu">
+                                <a href="collections.html">Kids</a>
+                            </li>
+                            <li class="nav-menu">
+                                <a href="contact.html">Contact us</a>
+                            </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="head-bread">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Contact</li>
+        </ol>
+    </div>
+</div>
+<!-- contact -->
+<div class="contact">
+    <div class="container">
+        <h4>If you have any quarries of feedback do not hesitate to: </h4><br>
+        <h3>Contact us</h3>
+        <div class="contact-content">
+            <form>
+                <label>
+                    <input type="text" class="textbox" value=" Your Name" onfocus="this.value = '';"
+                           onblur="if (this.value === '') {this.value = 'Your Name';}"><br>
+                    <input type="text" class="textbox" value="Your E-Mail" onfocus="this.value = '';"
+                           onblur="if (this.value === '') {this.value = 'Your E-Mail';}">
+                </label>
+                <br>
+                <div class="clear"></div>
+                <div>
+                    <textarea value="Message:" onfocus="this.value = '';"
+                              onblur="if (this.value === '') {this.value = 'Your Message ';}">Your Message</textarea><br>
+                </div>
+                <div class="submit">
+                    <input class="btn btn-default cont-btn" type="submit" value="SEND "/>
+                </div>
+            </form>
+            <div id="sitemap" class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2482.7415760814993!2d-0.08344148486370552!3d51.51795692963686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sLiverpool+Street%2C+London!5e0!3m2!1sen!2suk!4v1554667775965!5m2!1sen!2suk"
+                        allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/it50gNp_ZDk" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-grid">
+    <div class="container">
+        <div class="col-md-2 re-ft-grd">
+            <h3>Categories</h3>
+            <ul class="categories">
+                <li><a href="collections.html">Men</a></li>
+                <li><a href="collections.html">Women</a></li>
+                <li><a href="collections.html">Kids</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 re-ft-grd">
+            <h3>Short links</h3>
+            <ul class="shot-links">
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="contact.html">Support</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="contact.html">Return Policy</a></li>
+                <li><a href="contact.html">Terms & conditions</a></li>
+                <li><a href="contact.html#sitemap">Find us</a></li>
+            </ul>
+        </div>
+        <script>
+            function readMoreButton() {
+                const dots = document.getElementById("dots");
+                const moreText = document.getElementById("more");
+                const btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
+        <div class="col-md-2 re-ft-grd">
+            <h3>About us</h3>
+            <div><p id="about">We are renowned brand located in Liverpool Street, London, which deals in
+                selling footwear for
+                men, women and children.<span id="dots">....</span><span id="more"> We have experienced a huge amount of sales in the past 5 years. We are one of
+                the leading companies in the last 3 years. Recently we release our online shop which will help our
+                costumers to have a more relaxed shopping experience. With that we also expect more costumers to chose
+                our brand.</span></p>
+                <button onclick="readMoreButton()" id="myBtn">Read more</button>
+            </div>
+        </div>
+        <div class="col-md-6 re-ft-grd">
+            <h3>Social</h3>
+            <ul class="social">
+                <li><a href="#" class="fa fa-facebook">Facebook</a></li>
+                <li><a href="#" class="fa fa-youtube">YouTube</a></li>
+                <li><a href="#" class="fa fa-instagram">Instagram</a></li>
+                <div class="clearfix"></div>
+            </ul>
+            <a href="index.html"><h2>Unique Wears</h2></a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="copy-rt">
+        <div class="container">
+            <p>&copy 2019 Unique Wears - Footwear All Rights Reserved. Design by <a
+                    href="https://www.linkedin.com/in/mihail-atanasov-95a681a5/" target="_blank">Mihail Atanasov</a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
